@@ -1,0 +1,16 @@
+Create DataBase BDNaruto;
+Use BDNaruto;
+
+-- Personajes
+create table personaje
+( codigo int PRIMARY key auto_increment,
+nombre varchar(30),
+apellido varchar(30),
+aldea varchar(50)
+);
+
+insert personaje values (1,'Naruto','Uzumaki','Aldea de la Hoja');
+insert personaje values (2, 'Sasuke', 'Uchiha', 'Aldea de la Hoja');
+insert personaje values (3, 'Sakura', 'Haruno', 'Aldea de la Hoja');
+insert personaje values (4, 'Kakashi', 'Hatake', 'Aldea de la Hoja');
+insert personaje values (5, 'Gaara', 'del Desierto', 'Aldea de la Arena');
